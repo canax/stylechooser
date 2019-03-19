@@ -89,7 +89,7 @@ class StyleChooserController implements ContainerInjectableInterface
 
         $active = $session->get(self::$key, null);
 
-        $page->add("anax/stylechooser/index", [
+        $page->add("anax/v2/stylechooser/default", [
             "styles" => $this->styles,
             "activeStyle" => $active,
             "activeShortDescription" => $this->styles[$active]["shortDescription"] ?? null,
