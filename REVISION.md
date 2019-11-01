@@ -3,7 +3,7 @@ Revision history
 
 
 
-v2.0.0-beta.x (2019-11-01)
+v2.0.0-beta.4 (2019-11-01)
 ---------------------------------
 
 * Update Makefile to download phpmd.
